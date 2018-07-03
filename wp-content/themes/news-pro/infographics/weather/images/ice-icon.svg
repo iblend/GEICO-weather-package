@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="80px" viewBox="0 0 64 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Ice Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="GEICO-Weather-Package" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-320.000000, -2653.000000)" stroke="#FFFFFF" stroke-width="3.5">
+            <g id="Weather-Icons" transform="translate(322.000000, 1593.000000)">
+                <g id="Ice-Icon" transform="translate(0.000000, 1062.000000)">
+                    <g id="Group" stroke-linecap="round">
+                        <path d="M21.1810345,45.0315789 L21.1810345,0.363157895" id="Shape"></path>
+                        <g transform="translate(15.689655, 1.815789)" id="Shape">
+                            <polyline points="0 41.5815789 5.49137931 35.4078947 10.9827586 41.5815789"></polyline>
+                            <polyline points="10.9827586 0.181578947 5.49137931 6.35526316 0 0.181578947"></polyline>
+                        </g>
+                        <polyline id="Shape" points="0.482758621 28.1447368 8.62931034 29.9 5.97413793 37.7684211"></polyline>
+                        <polyline id="Shape" points="6.21551724 7.38421053 8.75 15.3131579 0.603448276 16.8868421"></polyline>
+                        <polyline id="Shape" points="2.05172414 11.3184211 21.1810345 22.6973684 34.9396552 30.8684211"></polyline>
+                        <polyline id="Shape" points="34.9396552 14.8289474 21.1810345 22.6973684 1.87068966 33.7736842"></polyline>
+                    </g>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" cx="43.5" cy="59.5" r="8.5"></circle>
+                    <path d="M51.9044944,45.667528 L51.9044944,13.3169681 C51.9044944,8.73040482 48.1348315,5 43.5,5 C38.8651685,5 35.0955056,8.73040482 35.0955056,13.3169681 L35.0955056,45.667528 C30.2752809,48.4806202 27,53.7398794 27,59.6718346 C27,68.6614987 34.3539326,76 43.5,76 C52.5842697,76 60,68.7226529 60,59.6718346 C60,53.7398794 56.7247191,48.4806202 51.9044944,45.667528 Z" id="Shape" stroke-linecap="round"></path>
+                    <path d="M43,41 L43,51" id="Shape"></path>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" cx="21" cy="23" r="6"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

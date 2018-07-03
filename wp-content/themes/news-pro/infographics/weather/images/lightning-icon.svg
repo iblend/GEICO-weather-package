@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="76px" viewBox="0 0 73 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Lightning Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="GEICO-Weather-Package" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-327.000000, -2001.000000)">
+            <g id="Weather-Icons" transform="translate(322.000000, 1593.000000)">
+                <g id="Lightning-Icon" transform="translate(7.000000, 410.000000)">
+                    <g id="Group-10">
+                        <path d="M14.25,49.5 C6.4,49.5 0,43.1 0,35.25 C0,27.4 6.4,21 14.25,21 C17.2,21 19.95,21.9 22.2,23.45" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
+                        <path d="M51.1,33.35 C52.9,31.3 55.55,30 58.5,30 C63.95,30 68.4,34.4 68.4,39.9 C68.4,45.4 64,49.8 58.5,49.8 L46,49.8" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
+                        <path d="M11.8,21.3 C10.65,19.25 10,16.9 10,14.35 C10,6.45 16.4,0 24.35,0 C30.75,0 36.2,4.2 38,10" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
+                        <path d="M31,15.25 C34.25,11.4 39.05,9 44.45,9 C54.15,9 62.05,16.85 62.05,26.6 C62.05,27.8 61.95,29 61.7,30.15" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
+                        <path d="M45,56 L43,61.65" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
+                        <path d="M55,56 L53,61.65" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
+                        <path d="M38,66 L36,71.65" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
+                        <path d="M48,66 L46,71.65" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
+                        <path d="M41.4222197,48.25 L36.3722197,48.25 C35.6722197,48.25 35.2222197,47.6 35.4222197,46.95 L38.3722197,37.7 C38.4722197,37.35 38.2222197,37 37.8722197,37 L25.3222197,37 C24.9222197,37 24.5222197,37.25 24.3722197,37.65 L19.0222197,54.35 C18.9222197,54.7 19.1722197,55.05 19.5222197,55.05 L25.3722197,55.05 C25.8722197,55.05 26.2222197,55.55 26.0722197,56.05 L21.3722197,70.8 C21.2222197,71.3 21.8222197,71.65 22.1722197,71.25 L41.8222197,49.1 C42.1222197,48.75 41.8722197,48.25 41.4222197,48.25 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

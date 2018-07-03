@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Close Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="GEICO-Weather-Package" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Type-Overlay-Example" transform="translate(-1161.000000, -1129.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Rain-Overlay" transform="translate(-14.000000, 1089.000000)">
+                <g id="Close-Button" transform="translate(1176.000000, 41.000000)">
+                    <path d="M0,0 L25,25" id="Stroke-1"></path>
+                    <path d="M25,0 L0,25" id="Stroke-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
