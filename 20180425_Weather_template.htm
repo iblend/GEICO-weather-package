@@ -91,7 +91,7 @@ var frontendChecklist = {"ajaxurl":"https:\/\/www.geico.com\/more\/wp-admin\/adm
 <script type="text/javascript">
 window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
 </script>
-<script type="text/javascript" src="https://static.addtoany.com/menu/page.js" async="async"></script>
+<script type="text/javascript" src="https://static.addtoany.com/menu/page.js" async></script>
 <link rel="Shortcut Icon" href="https://www.geico.com/more/wp-content/themes/news-pro/images/favicon.ico" type="image/x-icon" />
 <link rel="pingback" href="https://www.geico.com/more/xmlrpc.php" />
 <style type="text/css">.site-title a { background: url(https://www.geico.com/more/wp-content/uploads/cropped-logo.jpg) no-repeat !important; }</style>
@@ -223,7 +223,8 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 
 				<div class="cta-style animatedParent animateOnce">
 					<div class="cta-inner animated fadeInUpShort delay-500">
-						<img src="/wp-content/themes/news-pro/infographics/weather/images/checklist-icon.svg" alt="">
+						<img class="show-desktop-only" src="/wp-content/themes/news-pro/infographics/weather/images/checklist-icon.svg" alt="">
+						<img class="show-mobile-only" src="/wp-content/themes/news-pro/infographics/weather/images/checklist-icon-mobile.svg" alt="">
 						<h3>The Winter <br>Prep Checklist</h3>
 						<a class="play-btn" href="#the-winter-prep-check-list">Watch Now</a>
 					</div>
@@ -236,7 +237,7 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 		
 		<!--rain-bar -->
 		<div class="rain-bar on-view-section" id="triggerspacer">
-			<div class="bg-image" style="background-image: url(/wp-content/themes/news-pro/infographics/weather/images/rain-img.jpg);"></div>
+			<div class="bg-image"></div>
 			<div class="triggerspacer"></div>
 			<div class="rain-inner">
 				<div class="wrapper">			
@@ -249,11 +250,13 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 						<a class="sky-btn" href="#how-to-drive-during-a-flash-flood">Read More</a>
 					</div>
 					<div class="icon-style" id="iconpin">
-						<img src="/wp-content/themes/news-pro/infographics/weather/images/rain-icon.svg" alt="">
+						<img class="show-desktop-only" src="/wp-content/themes/news-pro/infographics/weather/images/rain-icon.svg" alt="">
+						<img class="show-mobile-only" src="/wp-content/themes/news-pro/infographics/weather/images/rain-icon-mobile.svg" alt="">
 					</div>
 					<div class="cta-style animatedParent animateOnce">
 						<div class="cta-inner animated fadeInUpShort delay-500">
-							<img src="/wp-content/themes/news-pro/infographics/weather/images/car.svg" alt="">
+							<img class="show-desktop-only" src="/wp-content/themes/news-pro/infographics/weather/images/car.svg" alt="">
+							<img class="show-mobile-only" src="/wp-content/themes/news-pro/infographics/weather/images/car-mobile.svg" alt="">
 							<h3>Here's Another Way To Prepare Yourself For A Rainy Day.</h3>
 							<p>Full-Coverage Auto Insurance from GEICO.</p>
 							<a class="sky-btn small external-link" href="#">Get a Guote Now</a>
@@ -266,7 +269,7 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 		
 		<!--light-bar -->
 		<div class="light-bar on-view-section" id="triggerspacer1">
-			<div class="bg-image" style="background-image: url(/wp-content/themes/news-pro/infographics/weather/images/light-img.jpg);"></div>
+			<div class="bg-image"></div>
 			<div class="triggerspacer"></div>
 			<div class="light-inner">
 				<div class="wrapper">			
@@ -283,13 +286,22 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 						<a class="sky-btn" href="#how-to-drive-in-a-hailstorm">Read More</a>
 					</div>
 					<div class="icon-style" id="iconpin1">
-						<img src="/wp-content/themes/news-pro/infographics/weather/images/lightning-icon.svg" alt="">
+						<img class="show-desktop-only" src="/wp-content/themes/news-pro/infographics/weather/images/lightning-icon.svg" alt="">
+						<img class="show-mobile-only" src="/wp-content/themes/news-pro/infographics/weather/images/lightning-icon-mobile.svg" alt="">
 					</div>
-					<div class="cta-style animatedParent animateOnce">
+					<div class="cta-style animatedParent animateOnce show-desktop-only">
 						<div class="cta-inner animated fadeInUpShort delay-500">
 							<img src="/wp-content/themes/news-pro/infographics/weather/images/car-light.svg" alt="">
 							<h3>How To Make An Emergency Car Kit</h3>
 							<a class="play-btn" href="#how-to-make-an-emergency-car-kit">Play btn</a>
+						</div>
+					</div>
+					<div class="cta-style animatedParent animateOnce show-mobile-only">
+						<div class="cta-inner animated fadeInUpShort delay-500">
+							<img src="/wp-content/themes/news-pro/infographics/weather/images/emergancy-icon-mobile.svg" alt="">
+							<h3>Bad Weather Can Leave <br>You Stranded</h3>
+							<p>Let 24/7 Emergency Roadside Service (ERS) from GEICO save the day.</p>
+							<a class="sky-btn small external-link" href="#">Add Now</a>
 						</div>
 					</div>
 				</div>
@@ -299,7 +311,7 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 		
 		<!--ice-bar -->
 		<div class="ice-bar on-view-section" id="triggerspacer2">
-			<div class="bg-image" style="background-image: url(/wp-content/themes/news-pro/infographics/weather/images/ice-img.jpg);"></div>
+			<div class="bg-image"></div>
 			<div class="triggerspacer"></div>
 			<div class="ice-inner">
 				<div class="wrapper">			
@@ -312,16 +324,24 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 						<a class="sky-btn" href="#how-to-navigate-black-ice">Read More</a>
 					</div>
 					<div class="icon-style" id="iconpin2">
-						<img src="/wp-content/themes/news-pro/infographics/weather/images/ice-icon.svg" alt="">
+						<img class="show-desktop-only" src="/wp-content/themes/news-pro/infographics/weather/images/ice-icon.svg" alt="">
+						<img class="show-mobile-only" src="/wp-content/themes/news-pro/infographics/weather/images/ice-icon-mobile.svg" alt="">
 					</div>
-					<div class="cta-style animatedParent animateOnce">
+					<div class="cta-style animatedParent animateOnce show-desktop-only">
 						<div class="cta-inner animated fadeInUpShort delay-500">
 							<img src="/wp-content/themes/news-pro/infographics/weather/images/emergancy-icon.svg" alt="">
 							<h3>Bad Weather Can Leave <br>You Stranded</h3>
 							<p>Let 24/7 Emergency Roadside Service (ERS) from GEICO save the day.</p>
 							<a class="sky-btn small external-link" href="#">Add Now</a>
 						</div>
-					</div>				
+					</div>	
+					<div class="cta-style animatedParent animateOnce show-mobile-only">
+						<div class="cta-inner animated fadeInUpShort delay-500">
+							<img src="/wp-content/themes/news-pro/infographics/weather/images/car-light-mobile.svg" alt="">
+							<h3>How To Make An Emergency Car Kit</h3>
+							<a class="play-btn" href="#how-to-make-an-emergency-car-kit">Play btn</a>
+						</div>
+					</div>			
 				</div>
 			</div>
 		</div>
@@ -329,7 +349,7 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 
 		<!--blizzard-bar -->
 		<div class="blizzard-bar on-view-section" id="triggerspacer3">
-			<div class="bg-image" style="background-image: url(/wp-content/themes/news-pro/infographics/weather/images/blizzard-img.jpg);"></div>
+			<div class="bg-image"></div>
 			<div class="triggerspacer"></div>
 			<div class="blizzard-inner">
 				<div class="wrapper">			
@@ -346,13 +366,17 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 						<a class="sky-btn" href="#what-to-do-if-you-get-stranded">Read More</a>
 					</div>
 					<div class="icon-style" id="iconpin3">
-						<img src="/wp-content/themes/news-pro/infographics/weather/images/snow-icon.svg" alt="">
+						<img class="show-desktop-only" src="/wp-content/themes/news-pro/infographics/weather/images/snow-icon.svg" alt="">
+						<img class="show-mobile-only" src="/wp-content/themes/news-pro/infographics/weather/images/snow-icon-mobile.svg" alt="">
 					</div>				
 				</div>
 			</div>
 		</div>
 		<!--blizzard-bar -->
-		<div class="thermometer"><img src="/wp-content/themes/news-pro/infographics/weather/images/thermometer.png"></div>
+		<div class="thermometer">
+			<img class="show-desktop-only"src="/wp-content/themes/news-pro/infographics/weather/images/thermometer.png">
+			<img class="show-mobile-only" src="/wp-content/themes/news-pro/infographics/weather/images/thermometer-mobile.png">
+		</div>
 	</div>
 	<!--contentCntr-bar -->
 
@@ -787,6 +811,12 @@ jQuery(document).ready(function(e) {
 			jQuery('#main_video .wrapper').addClass('fadeInText');
 		},2000);		
 	})
+	
+	if(jQuery('body').hasClass('over-flow-hidden')){
+		jQuery(document).bind("touchmove",function(e){
+		   e.preventDefault();
+		 });
+	}
 
 	var controller = new ScrollMagic.Controller();
 	var scene = new ScrollMagic.Scene({triggerElement: "#triggerspacer", duration: jQuery('.rain-bar .triggerspacer').height()})
@@ -859,7 +889,7 @@ jQuery(document).ready(function(e) {
 </rdf:RDF>-->
 </div><footer class="entry-footer"><p class="entry-meta"><span class="entry-categories">Filed Under: <a rel="category tag" href="https://www.geico.com/more/uncategorized/">Uncategorized</a></span> </p></footer></article>	<div id="respond" class="comment-respond">
 		<h3 id="reply-title" class="comment-reply-title">Leave a comment <small><a rel="nofollow" style="display:none;" id="cancel-comment-reply-link" href="/more/uncategorized/new-post/#respond">Cancel reply</a></small></h3>			<form action="https://www.geico.com/more/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
-				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
 <p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
 <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='11674' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
@@ -878,7 +908,7 @@ jQuery(document).ready(function(e) {
 </div><div class="footer-widgets-3 widget-area"></div><div class="footer-widgets-4 widget-area"></div><div class="footer-widgets-5 widget-area"></div><div class="footer-widgets-6 widget-area"></div><div id="copyright">&copy;2018 GEICO</div></div></div></div><link rel='stylesheet' id='yarppRelatedCss-css'  href='https://www.geico.com/more/wp-content/plugins/yet-another-related-posts-plugin/style/related.css?ver=4.9.4' type='text/css' media='all' />
 <script type='text/javascript' src='https://www.geico.com/more/wp-includes/js/comment-reply.min.js?ver=4.9.4'></script>
 <script type='text/javascript' src='https://www.geico.com/more/wp-includes/js/wp-embed.min.js?ver=4.9.4'></script>
-<script async="async" type='text/javascript' src='https://www.geico.com/more/wp-content/plugins/akismet/_inc/form.js?ver=4.0.2'></script>
+<script async type='text/javascript' src='https://www.geico.com/more/wp-content/plugins/akismet/_inc/form.js?ver=4.0.2'></script>
 
 	<script type="text/javascript">_satellite.pageBottom();</script>
 	</body>
