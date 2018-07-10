@@ -18,12 +18,12 @@ html #wrapper .blue-btn:hover { text-decoration: none; color: #fff; background: 
 
 #main_video h1 { margin: 0px; font-size: 84px; line-height: 87px; color: #fff; text-align: center; letter-spacing: 2.64px; transition: all 350ms; -webkit-transition: all 350ms; }
 #main_video .wrapper { max-width: 830px; }
-#main_video .wrapper.fadeInText h1, #main_video .wrapper.fadeInText p { opacity: 0; }
+#main_video .wrapper.fadeInText h1, #main_video .wrapper.fadeInText p, #main_video .wrapper.fadeInText .botom_arrow { opacity: 0; }
 #main_video .text { text-align: center; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); z-index: 2; }
 #main_video { height: calc(100vh - 141px); height: -webkit-calc(100vh - 141px); position: relative; background-size: cover; background-repeat: no-repeat; background-position: top center; overflow: hidden; }
 #main_video p { font-size: 20px; line-height: 28px; font-weight: normal; font-family: 'latoheavy'; padding: 23px 0 22px; max-width: 650px; margin: auto; color: #faf5f5; letter-spacing: 0.6px; transition: all 350ms; -webkit-transition: all 350ms; }
 
-#main_video .botom_arrow { background: url(../images/arrow.svg) center center no-repeat; background-size: 71px; width: 71px; height: 71px; display: block; text-indent: -9999px; margin: auto; }
+#main_video .botom_arrow { background: url(../images/arrow.svg) center center no-repeat; background-size: 71px; width: 71px; height: 71px; display: block; text-indent: -9999px; margin: auto; transition: all 350ms; -webkit-transition: all 350ms; }
 #main_video .hero-video { width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden; }
 #main_video .play-btn { position: absolute; top: 0px; left: 0px; z-index: 99; font-size: 0px; line-height: 0px; overflow: hidden; opacity: 0; }
 #main_video .hero-video video { display: block; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
@@ -37,7 +37,7 @@ html #wrapper .blue-btn:hover { text-decoration: none; color: #fff; background: 
 .intro-bar { padding: 30px 0px 50px; width: 100%; position: relative; background: url(../images/intro-img.jpg) top center no-repeat; background-size: cover; }  
 .intro-bar:before { content: ""; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: rgba(3,43,72,0.66); display: block; }
 .intro-bar .social-icon { text-align: center; width: 100%; overflow: hidden }
-.intro-bar .social-icon ul { margin: 0; list-style: none;	overflow: hidden; padding: 0 0 32px; }
+.intro-bar .social-icon ul { margin: 0; list-style: none;	overflow: hidden; padding: 0 0 20px; }
 .intro-bar .social-icon ul li { display: inline-block; vertical-align: top; background: 0 0; padding: 0 8px; margin: 0 }
 .intro-bar .social-icon ul li a { display: block; width: 38px; height: 38px; border-radius: 100%; -webkit-border-radius: 100%; background: #fff; color: #000; text-decoration: none;	font-size: 21px; }
 .intro-bar .social-icon ul li a i { line-height: 38px; display: block; text-align: center }
@@ -48,9 +48,10 @@ html #wrapper .blue-btn:hover { text-decoration: none; color: #fff; background: 
 html #wrapper .intro-bar p a, html #wrapper .intro-bar p a:focus, html #wrapper .intro-bar p a:visited { color: #fff; text-decoration: underline; } 
 html #wrapper .intro-bar p a:hover { text-decoration: none; }
 .intro-bar p strong { font-weight: 900; }
-.intro-bar h3 { display: block; text-align: center; margin: 0; padding: 12px 0 22px; font-weight: normal; text-decoration: none; color: #fff; letter-spacing: 2px; font-size: 24px; line-height: 30px; text-transform: uppercase; }
+.intro-bar h3 { display: block; text-align: center; margin: 0; padding: 0px 0 22px; font-weight: normal; text-decoration: none; color: #fff; letter-spacing: 2px; font-size: 24px; line-height: 30px; text-transform: uppercase; }
 .intro-bar h3 a { color: #fff;  }
 html #wrapper .intro-bar .blue-btn { display: block; max-width: 145px; margin: 0 auto; }
+.content .intro-bar h3 a:visited { color: #fff; }
 
 .rain-bar { position: relative; }  
 .rain-bar .bg-image { height: 508px; background-size: cover; background-position: top center; background-repeat: no-repeat; }
@@ -263,7 +264,7 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.intro-bar .inner { max-width: 330px; }  
 	.intro-bar .social-icon ul li { padding: 0 6px; }
 	.intro-bar .social-icon ul { padding: 0 0 25px; }
-	.intro-bar h3 { padding: 12px 0 15px; }
+	.intro-bar h3 { padding: 0px 0 15px; }
 	html #wrapper .sky-btn { padding: 9px 19px; }
 	.intro-bar { padding: 30px 0; }
 	.rain-bar .bg-image { height: 358px; } 
@@ -323,17 +324,17 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	#main_video .wrapper { max-width: 290px; }  
 	#main_video p { font-size: 12px; line-height: 15px; padding: 7px 15px 5px; }
 	#main_video p br { display: none; }
-	#main_video { height: 271px; margin-bottom: 112px; overflow: visible; }
+	#main_video { height: 271px; margin-bottom: 75px; overflow: visible; }
 	#main_video:after { display: block; width: 100%; content: ""; height: 112px; background: #000; position: absolute; bottom: -112px; left: 0px; }
 	#main_video .botom_arrow { width: 43px; height: 43px; background-size: 39px auto; }
 	#main_video .text { padding: 51px 0; top: 0px; transform: none; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; background: rgba(0,0,0,0.3); }    
 	
-	.intro-bar .social-icon { margin: -156px auto 0; position: relative; left: -27px; z-index: 2; } 
+	.intro-bar .social-icon { margin: -120px auto 80px; position: relative; left: -27px; z-index: 2; } 
 	.intro-bar .social-icon ul li { padding: 0 7px; }  
 	.intro-bar .social-icon ul li a { width: 30px; height: 30px; font-size: 17px; line-height: 30px; } 
 	.intro-bar .social-icon ul li a i { line-height: 32px; }
 	.intro-bar .social-icon ul { padding: 0 0 17px; }  
-	.intro-bar .inner h3 { position: absolute; top: 42px; left: -26px; width: 100%; text-align: center; font-size: 18px; line-height: 20px; padding: 0px; }
+	.intro-bar .inner h3 { position: absolute; top: 46px; left: -26px; width: 100%; text-align: center; font-size: 18px; line-height: 20px; padding: 0px; }
 	html #wrapper .intro-bar .blue-btn { margin: 28px auto 56px; position: relative; left: -27px; }  
 	.intro-bar p { font-size: 14px; line-height: 20px; }
 	.wrapper { max-width: 100%; padding: 0 20px; }
@@ -343,7 +344,7 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.cta-style img { max-width: 51px; }
 	.cta-style img.show-desktop-only { display: none; }  
 	.cta-style img.show-mobile-only { display: block; }
-	.intro-bar .cta-style .play-btn { padding: 11px 19px; text-align: center; font-size: 14px; line-height: 20px; letter-spacing: 0.9px; color: #032b48; font-weight: 900; display: inline-block; vertical-align: top; background: #86d8f4; text-transform: uppercase; width: auto; height: auto; border-radius: 0px; -webkit-border-radius: 0px; margin: 5px 0 0; }
+	.cta-style .play-btn { padding: 11px 19px; text-align: center; font-size: 14px; line-height: 20px; letter-spacing: 0.9px; color: #032b48; font-weight: 900; display: inline-block; vertical-align: top; background: #86d8f4; text-transform: uppercase; width: auto; height: auto; border-radius: 0px; -webkit-border-radius: 0px; margin: 5px 0 0; }
 	.cta-style h3 { display: block; font-size: 28px; line-height: 28px; } 
 	html #wrapper .tile-style h2 { font-size: 24px; line-height: 27px; padding: 0; }  
 	.content-cntr .thermometer { top: 42px; left: 5px; margin: 0px; width: 51px; } 
