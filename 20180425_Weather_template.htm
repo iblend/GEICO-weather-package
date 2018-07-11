@@ -180,12 +180,11 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
         </div>
         <div class="text">
             <div class="wrapper">
-            <h1>Extreme Weather <br>Driving Guide</h1>
-            
-            <p>If you must be on the road during bad weather, <br>these pro tips can help you stay safe.</p>
-            <a href="#" class="botom_arrow"></a>
+				<h1>Extreme Weather <br>Driving Guide</h1>            
+				<p>If you must be on the road during bad weather, <br>these pro tips can help you stay safe.</p>            
             </div>
-        </div>    
+		</div> 
+		<a href="#" class="botom_arrow"></a>   
     </div>
 	<!--main_video -->
 
@@ -772,7 +771,7 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 jQuery(document).ready(function(e) {
 	document.getElementById('heroVideo').addEventListener('ended',myHandler,false);
     function myHandler(e) {
-        jQuery('#main_video .wrapper').removeClass('fadeInText');	
+        jQuery('#main_video .botom_arrow').removeClass('fadeInText');		
     }
 	jQuery('#main_video .botom_arrow').click(function(e){
 		e.preventDefault();
@@ -810,7 +809,8 @@ jQuery(document).ready(function(e) {
 	jQuery(window).load(function(){
 		setTimeout(function(){
 			jQuery('.hero-video .play-btn').trigger('click');
-			jQuery('#main_video .wrapper').addClass('fadeInText');			
+			jQuery('#main_video .wrapper').addClass('fadeInText');	
+			jQuery('#main_video .botom_arrow').addClass('fadeInText');		
 		},2000);		
 	})
 	
