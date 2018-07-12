@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="72px" height="69px" viewBox="0 0 72 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="52px" height="49px" viewBox="0 0 52 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
     <title>Snow Icon</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="GEICO-Weather-Package" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-324.000000, -3071.000000)">
-            <g id="Weather-Icons" transform="translate(322.000000, 1593.000000)">
-                <g id="Snow-Icon" transform="translate(4.000000, 1480.000000)">
-                    <path d="M14.5,49.6995 C6.63,49.6995 0.25,43.3195 0.25,35.4495 C0.25,27.5795 6.63,21.1995 14.5,21.1995 C17.4515,21.1995 20.193,22.0965 22.4675,23.633" id="Stroke-1" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                    <path d="M50.70405,33.3093 C52.51405,31.2493 55.16755,29.9493 58.12505,29.9493 C63.57905,29.9493 68.00005,34.3708 68.00005,39.8243 C68.00005,45.2783 63.57905,49.6993 58.12505,49.6993 L51.91655,49.6993" id="Stroke-3" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                    <path d="M11.5363,21.5082 C10.3983,19.4537 9.7498,17.0902 9.7498,14.5752 C9.7498,6.6637 16.1638,0.2497 24.0753,0.2497 C30.4828,0.2497 35.9073,4.4562 37.7388,10.2577" id="Stroke-5" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                    <path d="M30.39065,15.4279 C33.61615,11.5994 38.44615,9.1669 43.84465,9.1669 C53.55615,9.1669 61.42915,17.0399 61.42915,26.7514 C61.42915,27.9654 61.30615,29.1504 61.07165,30.2954" id="Stroke-7" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                    <path d="M33.72535,64.719 L33.72535,34.68" id="Stroke-9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
-                    <polyline id="Stroke-11" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" points="30.01165 63.64165 33.72515 59.46115 37.43915 63.64165"></polyline>
-                    <polyline id="Stroke-13" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" points="37.439 35.75735 33.7255 39.93785 30.0115 35.75735"></polyline>
-                    <polyline id="Stroke-15" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" points="19.77505 53.3825 25.24655 54.5365 23.45555 59.834"></polyline>
-                    <polyline id="Stroke-17" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" points="47.67565 46.0165 42.20415 44.8625 43.99515 39.565"></polyline>
-                    <polyline id="Stroke-19" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" points="43.83725 59.9915 42.12825 54.667 47.61725 53.598"></polyline>
-                    <polyline id="Stroke-21" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" points="23.61345 39.4075 25.32245 44.732 19.83345 45.801"></polyline>
-                    <path d="M46.65455,57.3429 L20.79605,42.0559" id="Stroke-23" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
-                    <path d="M20.6795,57.142 L46.771,42.257" id="Stroke-25" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
-                    <path d="M30.39065,49.6995 C30.39065,47.858 31.88365,46.365 33.72515,46.365 C35.56715,46.365 37.06015,47.858 37.06015,49.6995 C37.06015,51.541 35.56715,53.034 33.72515,53.034 C31.88365,53.034 30.39065,51.541 30.39065,49.6995" id="Fill-27" fill="#FEFEFE"></path>
-                    <path d="M30.39065,49.6995 C30.39065,47.858 31.88365,46.365 33.72515,46.365 C35.56715,46.365 37.06015,47.858 37.06015,49.6995 C37.06015,51.541 35.56715,53.034 33.72515,53.034 C31.88365,53.034 30.39065,51.541 30.39065,49.6995 Z" id="Stroke-29" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
+        <g id="Desktop-HD" transform="translate(-326.000000, -3079.000000)">
+            <g id="Weather-Icons" transform="translate(323.000000, 1610.000000)">
+                <g id="Snow-Icon" transform="translate(5.000000, 1471.000000)">
+                    <path d="M10.2352941,35.1719538 C4.68,35.1719538 0.176470588,30.6568769 0.176470588,25.0873385 C0.176470588,19.5178 4.68,15.0027231 10.2352941,15.0027231 C12.3187059,15.0027231 14.2538824,15.6375231 15.8594118,16.7248923" id="Stroke-1" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                    <path d="M35.7910941,23.5727354 C37.0687412,22.1148892 38.9418,21.1948892 41.0294471,21.1948892 C44.8793294,21.1948892 48.0000353,24.3239508 48.0000353,28.1833508 C48.0000353,32.0431046 44.8793294,35.1718123 41.0294471,35.1718123 L36.6469765,35.1718123" id="Stroke-3" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                    <path d="M8.14327059,15.2211877 C7.33997647,13.7672338 6.88221176,12.0946031 6.88221176,10.3147569 C6.88221176,4.71584923 11.4097412,0.176710769 16.9943294,0.176710769 C21.5172706,0.176710769 25.3463294,3.15361846 26.6391529,7.25929538" id="Stroke-5" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                    <path d="M21.4522235,10.9182062 C23.7290471,8.20880615 27.1384588,6.48734462 30.9491647,6.48734462 C37.8043412,6.48734462 43.3617529,12.0590062 43.3617529,18.93176 C43.3617529,19.7908985 43.2749294,20.6295138 43.1094,21.4398215" id="Stroke-7" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                    <polyline id="Stroke-11" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round" points="21.1846941 45.0387062 23.8059882 42.0801985 26.4276353 45.0387062"></polyline>
+                    <polyline id="Stroke-13" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round" points="26.4275294 25.3052015 23.8062353 28.2637092 21.1845882 25.3052015"></polyline>
+                    <polyline id="Stroke-15" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round" points="13.9588588 37.7783846 17.8210941 38.5950615 16.5568588 42.3440615"></polyline>
+                    <polyline id="Stroke-17" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round" points="33.6534 32.5655231 29.7911647 31.7488462 31.0554 27.9998462"></polyline>
+                    <polyline id="Stroke-19" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round" points="30.9439412 42.4555231 29.7375882 38.6874154 33.6121765 37.9308923"></polyline>
+                    <polyline id="Stroke-21" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round" points="16.6683176 27.8883846 17.8746706 31.6564923 14.0000824 32.4130154"></polyline>
+                    <path d="M32.9326235,40.5811292 L14.6795647,29.7626369" id="Stroke-23" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round"></path>
+                    <path d="M14.5972941,40.4389538 L33.0148235,29.9049538" id="Stroke-25" stroke="#FFFFFF" stroke-width="2.1" stroke-linecap="round"></path>
+                    <path d="M21.4522235,35.1719538 C21.4522235,33.8687385 22.5061059,32.8121538 23.8059882,32.8121538 C25.1062235,32.8121538 26.1601059,33.8687385 26.1601059,35.1719538 C26.1601059,36.4751692 25.1062235,37.5317538 23.8059882,37.5317538 C22.5061059,37.5317538 21.4522235,36.4751692 21.4522235,35.1719538" id="Fill-27" fill="#FEFEFE"></path>
+                    <path d="M21.4522235,35.1719538 C21.4522235,33.8687385 22.5061059,32.8121538 23.8059882,32.8121538 C25.1062235,32.8121538 26.1601059,33.8687385 26.1601059,35.1719538 C26.1601059,36.4751692 25.1062235,37.5317538 23.8059882,37.5317538 C22.5061059,37.5317538 21.4522235,36.4751692 21.4522235,35.1719538 Z" id="Stroke-29" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
                 </g>
             </g>
         </g>

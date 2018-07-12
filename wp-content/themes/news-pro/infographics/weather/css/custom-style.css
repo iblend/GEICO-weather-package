@@ -26,14 +26,14 @@ html #wrapper .blue-btn:hover { text-decoration: none; color: #fff; background: 
 #main_video .botom_arrow.fadeInText { opacity: 0; }
 #main_video .botom_arrow { background: url(../images/arrow.svg) center center no-repeat; background-size: 71px; width: 71px; height: 71px; display: block; text-indent: -9999px; margin-left: -36px; transition: all 350ms; -webkit-transition: all 350ms; position: absolute; bottom: 40px; left: 50%; z-index: 9; }
 #main_video .hero-video { width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden; }
-#main_video .play-btn { position: absolute; top: 0px; left: 0px; z-index: 99; font-size: 0px; line-height: 0px; overflow: hidden; opacity: 0; }
+#main_video .play-btn, #main_video .play-btn-mobile { position: absolute; top: 0px; left: 0px; z-index: 99; font-size: 0px; line-height: 0px; overflow: hidden; opacity: 0; }
 #main_video .hero-video video { display: block; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
 
 .content-cntr { position: relative; }
-.content-cntr .thermometer { position: absolute; top: 268px; left: 50%; width: 75px; margin-left: -491px; }    
+.content-cntr .thermometer { position: absolute; top: 150px; left: 50%; width: 75px; margin-left: -491px; }    
 
 .icon-style { position: absolute; top: 22px; left: 295px; padding: 0 0 0 45px; }    
-.icon-style:before { content: ""; position: absolute; left: 0px; top: 41px; background: #fff; height: 4px; width: 47px; display: block; }
+.icon-style:before { content: ""; position: absolute; left: 0px; top: 24px; background: #fff; height: 4px; width: 47px; display: block; }
 
 .intro-bar { padding: 30px 0px 50px; width: 100%; position: relative; background: url(../images/intro-img.jpg) top center no-repeat; background-size: cover; }  
 .intro-bar:before { content: ""; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: rgba(3,43,72,0.66); display: block; }
@@ -79,8 +79,8 @@ html #wrapper .sky-btn:hover { background-color: #49c7f4; }
 .light-bar .wrapper { height: 100%; }
 .light-bar .cta-style { top: 68px; bottom: auto; width: 153px; left: 67px; }
 .light-bar .cta-style img { max-width: 68px; margin: 0 auto 9px; }
-.light-bar .icon-style:before { top: 34px; }
-.light-bar .triggerspacer { height: 405px; }
+.light-bar .icon-style:before { top: 23px; }
+.light-bar .triggerspacer { height: 422px; }
 
 .ice-bar { position: relative; }  
 .ice-bar .bg-image { height: 520px; background-size: cover; background-position: top center; background-repeat: no-repeat; }
@@ -93,8 +93,8 @@ html #wrapper .sky-btn:hover { background-color: #49c7f4; }
 .ice-bar .cta-style h3 { font-size: 25px; line-height: 26px; letter-spacing: 1px; padding: 0px 5px 8px; }
 .ice-bar .cta-style p { padding: 0px 6px 14px; }
 .ice-bar .icon-style { padding: 0 0 0 40px; }
-.ice-bar .icon-style:before { top: 31px; }
-.ice-bar .triggerspacer { height: 396px; }
+.ice-bar .icon-style:before { top: 21px; }
+.ice-bar .triggerspacer { height: 424px; }
 
 html #wrapper .ice-bar .tile-style h2 { color: #000; }
 
@@ -106,8 +106,8 @@ html #wrapper .ice-bar .tile-style h2 { color: #000; }
 .blizzard-bar .three { position: absolute; bottom: 55px; right: 266px; width: 332px; }
 .blizzard-bar .wrapper { height: 100%; }
 .blizzard-bar .icon-style { padding: 0 0 0 44px; }
-.blizzard-bar .icon-style:before { top: 32px; }
-.blizzard-bar .triggerspacer { height: 174px; }
+.blizzard-bar .icon-style:before { top: 23px; }
+.blizzard-bar .triggerspacer { height: 124px; }
 
 html #wrapper .blizzard-bar .tile-style h2 { color: #000; }
 html #wrapper .blizzard-bar .one.tile-style h2 { color: #fff; }
@@ -173,14 +173,19 @@ html #wrapper .bottom-bar h3 { font-family: 'Lato', sans-serif; font-weight: 700
 .video-overlay-bar h2 { margin: 0px; padding: 14px 0px 5px; font-family: 'VanguardCF-DemiBold'; color: #fff; text-transform: uppercase; font-size: 36px; line-height: 40px; text-align: center; letter-spacing: 0.58px; }
 .overlay-bar a:focus, .video-overlay-bar a:focus { outline: none !important; }
 
-.triggerspacer { position: absolute; top: 0px; left: 0px; height: 387px; width: 100%; }
+.triggerspacer { position: absolute; top: 0px; left: 0px; height: 410px; width: 100%; }
 
 .on-view-section { overflow: hidden; }
 
 .rain-bar .bg-image { background-image: url(../images/rain-img.jpg); }
 .light-bar .bg-image { background-image: url(../images/light-img.jpg); }
-.ice-bar .bg-image { background-image: url(../images/ice-img.jpg); }
+.ice-bar .bg-image { background-image: url(../images/ice-img.jpg); position: relative; }
 .blizzard-bar .bg-image { background-image: url(../images/blizzard-img.jpg); }
+.ice-bar .bg-image:before { content: ""; position: absolute; top: 0px; left: 0px; width: 50%; height: 100%; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+0,000000+100,000000+100&0.73+0,0.6+0,0+100 */
+background: -moz-linear-gradient(left, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */ }
 
 .show-mobile-only { display: none; } 
 
@@ -238,10 +243,10 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.content-cntr .thermometer { margin-left: -300px; }
 	.icon-style { left: 256px; } 
 	.content-cntr .thermometer { width: 65px; }
-	.triggerspacer { height: 286px; } 
-	.light-bar .triggerspacer { height: 336px; } 
-	.ice-bar .triggerspacer { height: 285px; }  
-	.blizzard-bar .triggerspacer { height: 111px; } 
+	.triggerspacer { height: 323px; } 
+	.light-bar .triggerspacer { height: 367px; } 
+	.ice-bar .triggerspacer { height: 316px; }  
+	.blizzard-bar .triggerspacer { height: 60px; } 
 	html #wrapper .tile-style h2 { font-size: 30px; line-height: 34px; }
 	
 	.blizzard-bar .three { right: 20px; width: 280px; }
@@ -279,11 +284,11 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.blizzard-bar .bg-image { height: 370px; } 
 	
 	.icon-style { left: 196px; } 
-	.content-cntr .thermometer { width: 55px; margin-left: -225px; top: 366px; }
-	.triggerspacer { height: 245px; } 
-	.light-bar .triggerspacer { height: 295px; } 
-	.ice-bar .triggerspacer { height: 240px; }  
-	.blizzard-bar .triggerspacer { height: 42px; } 
+	.content-cntr .thermometer { width: 55px; margin-left: -225px; top: 319px; }
+	.triggerspacer { height: 262px; } 
+	.light-bar .triggerspacer { height: 315px; } 
+	.ice-bar .triggerspacer { height: 270px; }  
+	.blizzard-bar .triggerspacer { height: 51px; } 
 	html #wrapper .tile-style h2 { font-size: 26px; line-height: 30px; }
 	.bottom-bar .logo { margin: 0 auto 15px; width: 200px; }
 	
@@ -330,17 +335,17 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	#main_video .wrapper { max-width: 290px; }  
 	#main_video p { font-size: 12px; line-height: 15px; padding: 7px 15px 5px; }
 	#main_video p br { display: none; }
-	#main_video { height: 271px; margin-bottom: 75px; overflow: visible; }
+	#main_video { height: 319px; margin-bottom: 0px; overflow: visible; }
 	#main_video:after { display: block; width: 100%; content: ""; height: 112px; background: #000; position: absolute; bottom: -112px; left: 0px; }
-	#main_video .botom_arrow { width: 43px; height: 43px; background-size: 39px auto; margin-left: -22px; bottom: 40px; }
-	#main_video .text { padding: 51px 0; top: 0px; transform: none; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; background: rgba(0,0,0,0.3); height: 100%; }    
+	#main_video .botom_arrow { width: 45px; height: 45px; background-size: 43px auto; margin-left: -22px; bottom: 60px; }
+	#main_video .text { padding: 70px 0; top: 0px; transform: none; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; background: rgba(0,0,0,0.4); height: 100%; }    
 	
-	.intro-bar .social-icon { margin: -120px auto 80px; position: relative; left: -27px; z-index: 2; } 
+	.intro-bar .social-icon { margin: 0px auto; position: relative; left: -27px; z-index: 2; } 
 	.intro-bar .social-icon ul li { padding: 0 7px; }  
 	.intro-bar .social-icon ul li a { width: 30px; height: 30px; font-size: 17px; line-height: 30px; } 
 	.intro-bar .social-icon ul li a i { line-height: 32px; }
-	.intro-bar .social-icon ul { padding: 0 0 17px; }  
-	.intro-bar .inner h3 { position: absolute; top: 46px; left: -26px; width: 100%; text-align: center; font-size: 18px; line-height: 20px; padding: 0px; }
+	.intro-bar .social-icon ul { padding: 0 0 9px; }  
+	.intro-bar .inner h3 { width: 100%; text-align: center; font-size: 18px; line-height: 20px; padding: 0px 0 39px; position: relative; left: -26px; }
 	html #wrapper .intro-bar .blue-btn { margin: 28px auto 56px; position: relative; left: -27px; }  
 	.intro-bar p { font-size: 14px; line-height: 20px; }
 	.wrapper { max-width: 100%; padding: 0 20px; }
@@ -350,71 +355,78 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.cta-style img { max-width: 51px; }
 	.cta-style img.show-desktop-only { display: none; }  
 	.cta-style img.show-mobile-only { display: block; }
-	.cta-style .play-btn { padding: 11px 19px; text-align: center; font-size: 14px; line-height: 20px; letter-spacing: 0.9px; color: #032b48; font-weight: 900; display: inline-block; vertical-align: top; background: #86d8f4; text-transform: uppercase; width: auto; height: auto; border-radius: 0px; -webkit-border-radius: 0px; margin: 5px 0 0; }
+	.cta-style .play-btn { padding: 7px 19px; text-align: center; font-size: 14px; line-height: 20px; letter-spacing: 0.9px; color: #032b48; font-weight: 900; display: inline-block; vertical-align: top; background: #86d8f4; text-transform: uppercase; width: auto; height: auto; border-radius: 0px; -webkit-border-radius: 0px; margin: 5px 0 0; }
 	.cta-style h3 { display: block; font-size: 28px; line-height: 28px; } 
 	html #wrapper .tile-style h2 { font-size: 24px; line-height: 27px; padding: 0; }  
-	.content-cntr .thermometer { top: 42px; left: 5px; margin: 0px; width: 51px; } 
-	.intro-bar .inner { padding: 0 0px 220px; max-width: 226px; margin: 0 auto; } 
+	.content-cntr .thermometer { top: 107px; left: 50%; margin: 0px 0 0 -157px; width: 51px; } 
+	.intro-bar .inner { padding: 0; max-width: 226px; margin: 0 auto; } 
 
 	
-	.rain-bar .bg-image { height: 658px; } 
-	.light-bar .bg-image { height: 821px; }
-	.ice-bar .bg-image { height: 577px;}     
-	.blizzard-bar .bg-image { height: 502px; }
+	.rain-bar .bg-image { height: 864px; } 
+	.light-bar .bg-image { height: 805px; }
+	.ice-bar .bg-image { height: 585px;}     
+	.blizzard-bar .bg-image { height: 510px; }
 	
-	.rain-bar .one { left: 50%; top: 90px; margin-left: -80px; }  
-	.rain-bar .two { left: 50%; right: 0px; bottom: auto; top: 217px; margin-left: -80px; }  
+	.rain-bar .one { left: 50%; top: 278px; margin-left: -32px; }  
+	.rain-bar .two { left: 50%; right: 0px; bottom: auto; top: 407px; margin-left: -45px; width: 180px; }  
 
-	.tile-style { width: 190px; margin-left: -62px; z-index: 2; }  
-	html #wrapper .sky-btn { background: none; color: #fff; font-size: 14px;  }
+	.tile-style { width: 165px; margin-left: -62px; z-index: 2; }  
+	html #wrapper .sky-btn { background: none; color: #fff; font-size: 14px; padding: 5px 19px; }
 	
-	.rain-bar .cta-style { left: 50%; bottom: 40px; top: auto; width: 204px; margin-left: -75px; }
-	.rain-bar .cta-style img { margin-bottom: 11px; }
-	.cta-style p { font-size: 15px; line-height: 19px; padding: 2px 34px 10px; }   
+	.rain-bar .cta-style.the-winter-car { bottom: auto; top: 33px; width: 204px; margin-left: -41px; }
+	.rain-bar .cta-style.the-winter-car img { max-width: 51px; margin-bottom: 7px; }
+	.rain-bar .cta-style.the-winter-car h3 { padding: 0px 5px 3px; font-size: 28px; line-height: 28px; }
+	.rain-bar .cta-style { left: 50%; bottom: 61px; top: auto; width: 188px; margin-left: -37px; }
+	.rain-bar .cta-style img { margin-bottom: 7px; }
+	.cta-style p { font-size: 16px; line-height: 19px; padding: 2px 34px 10px; }   
 
-	.light-bar .cta-style { left: 50%; bottom: 28px; top: auto; margin-left: -80px; width: 208px; }
-	.light-bar .cta-style h3 { padding: 0px 0 9px; }
-	.light-bar .cta-style img { max-width: 74px; }  
+	.light-bar .cta-style { left: 50%; bottom: 22px; top: auto; margin-left: -25px; width: 170px; }
+	.light-bar .cta-style h3 { padding: 0px 0 8px; font-size: 24px; line-height: 24px; }
+	.light-bar .cta-style img { max-width: 74px; margin: 0 auto 13px; }  
 	.light-bar .cta-style h3 br { display: none; }
-	html #wrapper .light-bar .sky-btn.small { min-width: 150px; text-align: center; }
-	.light-bar .cta-style p { font-size: 16px; padding: 2px 20px 10px; }
+	html #wrapper .light-bar .sky-btn.small { min-width: 120px; text-align: center; }
+	.light-bar .cta-style p { font-size: 16px; padding: 2px 0px 14px; }
 	
-	.ice-bar .cta-style { left: 50%; bottom: 30px; top: auto; width: 194px; margin-left: -75px; }
+	.ice-bar .cta-style { left: 50%; bottom: 30px; top: auto; width: 138px; margin-left: 0px; }
 	.ice-bar .cta-style img { max-width: 48px; margin: 0 auto 8px; }
-	.ice-bar .cta-style h3 { font-size: 28px; line-height: 28px; color: #000; }
+	.ice-bar .cta-style h3 { font-size: 24px; line-height: 24px; color: #000; }
 	#wrapper .ice-bar .cta-style h3 { font-family: 'VanguardCF-DemiBold'; }
 
 	
-	.light-bar .one { left: 50%; bottom: auto; top: 100px; right: auto; width: 174px; margin-left: -74px; }
-	.light-bar .three { left: 50%; bottom: auto; top: 245px; right: auto; width: 171px; margin-left: -70px; } 
-	.light-bar .two { right: auto; left: 50%; top: 370px; width: 170px; margin-left: -71px; }
+	.light-bar .one { left: 50%; bottom: auto; top: 116px; right: auto; width: 174px; margin-left: -37px; }
+	.light-bar .three { left: 50%; bottom: auto; top: 262px; right: auto; width: 171px; margin-left: -37px; } 
+	.light-bar .two { right: auto; left: 50%; top: 387px; width: 170px; margin-left: -37px; }
 	
-	.ice-bar .one { top: 144px; left: 50%; right: auto; margin-left: -80px; bottom: auto; }
-	.ice-bar .two { top: 258px; left: 50%; right: auto; margin-left: -81px; bottom: auto; }
+	.ice-bar .one { top: 150px; left: 50%; right: auto; margin-left: -27px; bottom: auto; }
+	.ice-bar .two { top: 249px; left: 50%; right: auto; margin-left: -24px; bottom: auto; }
 	
-	.blizzard-bar .one { top: 101px; left: 50%; right: auto; margin-left: -70px; width: 167px; }
+	.blizzard-bar .one { top: 103px; left: 50%; right: auto; margin-left: -26px; width: 167px; }
 	html #wrapper .blizzard-bar .sky-btn { color: #000; }
-	.blizzard-bar .two { top: 231px; left: 50%; right: auto; margin-left: -102px; width: 230px; bottom: auto;  }
-	.blizzard-bar .three { top: 370px; left: 50%; right: auto; width: 210px; margin-left: -92px; }
+	.blizzard-bar .two { top: 219px; left: 50%; right: auto; margin-left: -60px; width: 230px; bottom: auto;  }
+	.blizzard-bar .three { top: 343px; left: 50%; right: auto; width: 150px; margin-left: -22px; }
 	
-	.bottom-bar .logo { width: 180px; margin: 0 auto 20px; } 
-	html #wrapper .bottom-bar h3 { font-size: 17px; line-height: 21px; padding: 0 7px 10px; } 
-	html #wrapper .bottom-bar h3 span { text-transform: none; color: #000; display: block; padding: 10px 0 0; }  
-	html #wrapper .bottom-bar .blue-btn { font-size: 11px; line-height: 15px; padding: 11px 20px; margin: 0 0 30px; } 
-	.bottom-bar p { font-size: 12px; line-height: 15px; padding: 0 0 15px; }
+	.bottom-bar .logo { width: 180px; margin: 0 auto 12px; } 
+	html #wrapper .bottom-bar h3 { font-size: 17px; line-height: 21px; padding: 0 7px 13px; } 
+	html #wrapper .bottom-bar h3 span { text-transform: none; color: #000; display: block; padding: 18px 16px 0; }  
+	html #wrapper .bottom-bar .blue-btn { font-size: 11px; line-height: 15px; padding: 11px 20px; margin: 0 0 27px; } 
+	.bottom-bar p { font-size: 12px; line-height: 15px; padding: 0 0 17px; }
 	.bottom-bar p br { display: none; }
-	.bottom-bar .author-name { font-size: 12px; line-height: 15px; }  
+	.bottom-bar .author-name { font-size: 12px; line-height: 15px; font-weight: 700; }  
+	.bottom-bar .author-name br { display: none; }
+	.bottom-bar .author-name span { display: block; padding: 10px 0 0; }
 	
-	.bottom-bar { padding: 40px 6px 35px; }
+	.bottom-bar { padding: 27px 6px 22px; }
 	.intro-bar .wrapper { padding: 0 20px; margin-left: 54px; }
-	.rain-bar .cta-style h3 { font-size: 28px; line-height: 28px; }
+	.rain-bar .cta-style h3 { font-size: 24px; line-height: 25px; }
 	
-	html #wrapper .sky-btn.small { color: #032b48; font-size: 14px; line-height: 18px; padding: 12px 20px; max-width: none; background: #86d8f4; display: inline-block; vertical-align: top; margin: 7px 0 0; }
+	html #wrapper .sky-btn.small { color: #032b48; font-size: 14px; line-height: 18px; padding: 9px 18px; max-width: none; background: #86d8f4; display: inline-block; vertical-align: top; margin: 0px; }
 	
 	html #wrapper .ice-bar .tile-style h2 { color: #000; }
 	html #wrapper .ice-bar .sky-btn { color: #000; }
 	
-	.intro-bar { background-image: url(../images/intro-img-mobile.jpg); padding: 30px 0 24px; }  
+	.intro-bar { background-image: url(../images/intro-img-mobile.jpg); padding: 14px 0 16px; }  
+	.intro-bar .wrapper { z-index: 2; }  
+	.intro-bar:after { content: ""; position: absolute; top: 0px; left: 0px; width: 100%; height: 84px; background: rgba(0,0,0,0.4); }
 	.intro-bar .cta-style h3 br { display: none; }
 
 	.rain-bar .bg-image { background-image: url(../images/rain-img-mobile.jpg); }
@@ -460,14 +472,15 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.light-bar .icon-style:before { top: 18px; } 
 	.ice-bar .icon-style:before { top: 17px; }
 	.blizzard-bar .icon-style:before { top: 16px; background: #000; }  
-	.icon-style { padding: 0 0 0 31px; top: 15px; left: 38px; z-index: 1; }  
-	.blizzard-bar .icon-style, .ice-bar .icon-style { padding: 0 0 0 31px; }
+	.icon-style { padding: 0 0 0 22px; top: 15px; left: 50%; z-index: 1; margin-left: -123px; }  
+	.blizzard-bar .icon-style, .ice-bar .icon-style { padding: 0 0 0 22px; }
 	
-	.triggerspacer { height: 590px; } 
-	.light-bar .triggerspacer { height: 746px; } 
-	.ice-bar .triggerspacer { height: 514px; }  
+	.triggerspacer { height: 790px; } 
+	.light-bar .triggerspacer { height: 726px; } 
+	.ice-bar .triggerspacer { height: 518px; }  
 	html #wrapper .sky-btn:not(.external-link):hover { background: none; }
-	.blizzard-bar .triggerspacer { height: 186px; } 
+	.blizzard-bar .triggerspacer { height: 210px; } 
+	.ice-bar .bg-image:before { display: none; }
 
 }
 

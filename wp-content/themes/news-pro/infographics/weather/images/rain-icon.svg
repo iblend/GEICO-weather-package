@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="72px" height="76px" viewBox="0 0 72 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="52px" height="53px" viewBox="0 0 52 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
     <title>Rain Icon</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="GEICO-Weather-Package" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
-        <g id="Desktop-HD" transform="translate(-325.000000, -1591.000000)" stroke="#FFFFFF" stroke-width="3.5">
-            <g id="Weather-Icons" transform="translate(322.000000, 1593.000000)">
-                <g id="Rain-Icon" transform="translate(5.000000, 0.000000)">
+        <g id="Desktop-HD" transform="translate(-324.000000, -1608.000000)" stroke="#FFFFFF" stroke-width="2.45">
+            <g id="Weather-Icons" transform="translate(323.000000, 1610.000000)">
+                <g id="Rain-Icon" transform="translate(3.000000, 0.000000)">
                     <g id="Group-2">
-                        <path d="M50.45,34.05 C52.25,32 54.9,30.7 57.85,30.7 C63.3,30.7 67.75,35.1 67.75,40.6 C67.75,46.1 63.35,50.5 57.85,50.5 L14.25,50.5 C6.4,50.5 0,44.1 0,36.25 C0,28.4 6.4,22 14.25,22 C17.2,22 19.95,22.9 22.2,24.45" id="Shape-Copy"></path>
-                        <path d="M10.8,21.3 C9.65,19.25 9,16.9 9,14.35 C9,6.45 15.4,0 23.35,0 C29.75,0 35.2,4.2 37,10" id="Shape-Copy-2"></path>
-                        <path d="M30,15.25 C33.25,11.4 38.05,9 43.45,9 C53.15,9 61.05,16.85 61.05,26.6 C61.05,27.8 60.95,29 60.7,30.15" id="Shape-Copy-3"></path>
-                        <path d="M24,56 L22,61.7" id="Shape-Copy-4"></path>
-                        <path d="M34,56 L32,61.7" id="Shape-Copy-5"></path>
-                        <path d="M44,56 L42,61.7" id="Shape-Copy-6"></path>
-                        <path d="M54,56 L52,61.7" id="Shape-Copy-7"></path>
-                        <path d="M27,66 L25,71.7" id="Shape-Copy-8"></path>
-                        <path d="M37,66 L35,71.7" id="Shape-Copy-9"></path>
-                        <path d="M47,66 L45,71.7" id="Shape-Copy-10"></path>
+                        <path d="M35.6117647,23.6458333 C36.8823529,22.2222222 38.7529412,21.3194444 40.8352941,21.3194444 C44.6823529,21.3194444 47.8235294,24.375 47.8235294,28.1944444 C47.8235294,32.0138889 44.7176471,35.0694444 40.8352941,35.0694444 L10.0588235,35.0694444 C4.51764706,35.0694444 0,30.625 0,25.1736111 C0,19.7222222 4.51764706,15.2777778 10.0588235,15.2777778 C12.1411765,15.2777778 14.0823529,15.9027778 15.6705882,16.9791667" id="Shape-Copy"></path>
+                        <path d="M7.62352941,14.7916667 C6.81176471,13.3680556 6.35294118,11.7361111 6.35294118,9.96527778 C6.35294118,4.47916667 10.8705882,0 16.4823529,0 C21,0 24.8470588,2.91666667 26.1176471,6.94444444" id="Shape-Copy-2"></path>
+                        <path d="M21.1764706,10.5902778 C23.4705882,7.91666667 26.8588235,6.25 30.6705882,6.25 C37.5176471,6.25 43.0941176,11.7013889 43.0941176,18.4722222 C43.0941176,19.3055556 43.0235294,20.1388889 42.8470588,20.9375" id="Shape-Copy-3"></path>
+                        <path d="M16.9411765,38.8888889 L15.5294118,42.8472222" id="Shape-Copy-4"></path>
+                        <path d="M24,38.8888889 L22.5882353,42.8472222" id="Shape-Copy-5"></path>
+                        <path d="M31.0588235,38.8888889 L29.6470588,42.8472222" id="Shape-Copy-6"></path>
+                        <path d="M38.1176471,38.8888889 L36.7058824,42.8472222" id="Shape-Copy-7"></path>
+                        <path d="M19.0588235,45.8333333 L17.6470588,49.7916667" id="Shape-Copy-8"></path>
+                        <path d="M26.1176471,45.8333333 L24.7058824,49.7916667" id="Shape-Copy-9"></path>
+                        <path d="M33.1764706,45.8333333 L31.7647059,49.7916667" id="Shape-Copy-10"></path>
                     </g>
                 </g>
             </g>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="73px" height="76px" viewBox="0 0 73 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="51px" height="53px" viewBox="0 0 51 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
     <title>Lightning Icon</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="GEICO-Weather-Package" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-327.000000, -2001.000000)">
-            <g id="Weather-Icons" transform="translate(322.000000, 1593.000000)">
-                <g id="Lightning-Icon" transform="translate(7.000000, 410.000000)">
+        <g id="Desktop-HD" transform="translate(-326.000000, -2011.000000)">
+            <g id="Weather-Icons" transform="translate(323.000000, 1610.000000)">
+                <g id="Lightning-Icon" transform="translate(5.000000, 403.000000)">
                     <g id="Group-10">
-                        <path d="M14.25,49.5 C6.4,49.5 0,43.1 0,35.25 C0,27.4 6.4,21 14.25,21 C17.2,21 19.95,21.9 22.2,23.45" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                        <path d="M51.1,33.35 C52.9,31.3 55.55,30 58.5,30 C63.95,30 68.4,34.4 68.4,39.9 C68.4,45.4 64,49.8 58.5,49.8 L46,49.8" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                        <path d="M11.8,21.3 C10.65,19.25 10,16.9 10,14.35 C10,6.45 16.4,0 24.35,0 C30.75,0 36.2,4.2 38,10" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                        <path d="M31,15.25 C34.25,11.4 39.05,9 44.45,9 C54.15,9 62.05,16.85 62.05,26.6 C62.05,27.8 61.95,29 61.7,30.15" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                        <path d="M45,56 L43,61.65" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                        <path d="M55,56 L53,61.65" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                        <path d="M38,66 L36,71.65" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                        <path d="M48,66 L46,71.65" id="Shape" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></path>
-                        <path d="M41.4222197,48.25 L36.3722197,48.25 C35.6722197,48.25 35.2222197,47.6 35.4222197,46.95 L38.3722197,37.7 C38.4722197,37.35 38.2222197,37 37.8722197,37 L25.3222197,37 C24.9222197,37 24.5222197,37.25 24.3722197,37.65 L19.0222197,54.35 C18.9222197,54.7 19.1722197,55.05 19.5222197,55.05 L25.3722197,55.05 C25.8722197,55.05 26.2222197,55.55 26.0722197,56.05 L21.3722197,70.8 C21.2222197,71.3 21.8222197,71.65 22.1722197,71.25 L41.8222197,49.1 C42.1222197,48.75 41.8722197,48.25 41.4222197,48.25 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <path d="M9.91304348,34.375 C4.45217391,34.375 0,29.9305556 0,24.4791667 C0,19.0277778 4.45217391,14.5833333 9.91304348,14.5833333 C11.9652174,14.5833333 13.8782609,15.2083333 15.4434783,16.2847222" id="Shape" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                        <path d="M35.5478261,23.1597222 C36.8,21.7361111 38.6434783,20.8333333 40.6956522,20.8333333 C44.4869565,20.8333333 47.5826087,23.8888889 47.5826087,27.7083333 C47.5826087,31.5277778 44.5217391,34.5833333 40.6956522,34.5833333 L32,34.5833333" id="Shape" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                        <path d="M8.20869565,14.7916667 C7.40869565,13.3680556 6.95652174,11.7361111 6.95652174,9.96527778 C6.95652174,4.47916667 11.4086957,0 16.9391304,0 C21.3913043,0 25.1826087,2.91666667 26.4347826,6.94444444" id="Shape" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                        <path d="M21.5652174,10.5902778 C23.826087,7.91666667 27.1652174,6.25 30.9217391,6.25 C37.6695652,6.25 43.1652174,11.7013889 43.1652174,18.4722222 C43.1652174,19.3055556 43.0956522,20.1388889 42.9217391,20.9375" id="Shape" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                        <path d="M31.3043478,38.8888889 L29.9130435,42.8125" id="Shape" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                        <path d="M38.2608696,38.8888889 L36.8695652,42.8125" id="Shape" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                        <path d="M26.4347826,45.8333333 L25.0434783,49.7569444" id="Shape" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                        <path d="M33.3913043,45.8333333 L32,49.7569444" id="Shape" stroke="#FFFFFF" stroke-width="2.45" stroke-linecap="round"></path>
+                        <path d="M28.8154572,33.5069444 L25.3024137,33.5069444 C24.8154572,33.5069444 24.5024137,33.0555556 24.6415441,32.6041667 L26.693718,26.1805556 C26.7632833,25.9375 26.5893702,25.6944444 26.345892,25.6944444 L17.6154572,25.6944444 C17.3371963,25.6944444 17.0589354,25.8680556 16.9545876,26.1458333 L13.2328485,37.7430556 C13.1632833,37.9861111 13.3371963,38.2291667 13.5806746,38.2291667 L17.6502398,38.2291667 C17.9980659,38.2291667 18.2415441,38.5763889 18.1371963,38.9236111 L14.8676311,49.1666667 C14.7632833,49.5138889 15.1806746,49.7569444 15.4241528,49.4791667 L29.093718,34.0972222 C29.3024137,33.8541667 29.1285007,33.5069444 28.8154572,33.5069444 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
                     </g>
                 </g>
             </g>

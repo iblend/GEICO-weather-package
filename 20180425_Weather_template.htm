@@ -172,12 +172,18 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 
 	<!--main_video -->
     <div id="main_video">
-    	<div class="hero-video">
+    	<div class="hero-video show-desktop-only">
             <video id="heroVideo" muted="" playsinline="" webkit-playsinline="" poster="/wp-content/themes/news-pro/infographics/weather/images/hero-img.jpg">
                 <source type="video/mp4" src="/wp-content/themes/news-pro/infographics/weather/banner-video/hero.mp4">
 			</video>
 			<a class="play-btn" href="#">Play Button</a>
-        </div>
+		</div>
+		<div class="hero-video show-mobile-only">
+			<video id="heroMobileVideo" muted="" playsinline="" webkit-playsinline="" poster="/wp-content/themes/news-pro/infographics/weather/images/hero-mobile-img.jpg">
+				<source type="video/mp4" src="/wp-content/themes/news-pro/infographics/weather/banner-video/hero.mp4">
+			</video>
+			<a class="play-btn-mobile" href="#">Play Button</a>
+		</div>
         <div class="text">
             <div class="wrapper">
 				<h1>Extreme Weather <br>Driving Guide</h1>            
@@ -218,7 +224,7 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 					<p>So how do you stay safe? The best strategy is not to drive, if at all possible. But if you get caught in bad weather while you’re out on the road—or you absolutely can’t avoid driving in bad conditions—here are some strategies to help minimize the hazards that Mother Nature may hurl at you.</p>
 				</div>
 
-				<div class="cta-style animatedParent animateOnce">
+				<div class="cta-style animatedParent animateOnce show-desktop-only">
 					<div class="cta-inner animated fadeInUpShort delay-500">
 						<img class="show-desktop-only" src="/wp-content/themes/news-pro/infographics/weather/images/checklist-icon.svg" alt="">
 						<img class="show-mobile-only" src="/wp-content/themes/news-pro/infographics/weather/images/checklist-icon-mobile.svg" alt="">
@@ -237,7 +243,15 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 			<div class="bg-image"></div>
 			<div class="triggerspacer"></div>
 			<div class="rain-inner">
-				<div class="wrapper">			
+				<div class="wrapper">
+					<div class="cta-style animatedParent animateOnce show-mobile-only the-winter-car">
+						<div class="cta-inner animated fadeInUpShort delay-500">
+							<img class="show-desktop-only" src="/wp-content/themes/news-pro/infographics/weather/images/checklist-icon.svg" alt="">
+							<img class="show-mobile-only" src="/wp-content/themes/news-pro/infographics/weather/images/checklist-icon-mobile.svg" alt="">
+							<h3>The Winter Car <br>Prep Checklist</h3>
+							<a class="play-btn" href="#the-winter-prep-check-list">Watch Now</a>
+						</div>
+					</div>			
 					<div class="one tile-style">
 						<h2>How To Drive In Heavy Rain</h2>
 						<a class="sky-btn" href="#how-to-drive-in-heavy-rain">Read More</a>
@@ -384,7 +398,7 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 			<h3 class="animated fadeInUpShort delay-250">You Can’t Dial Up Good Weather, But You Can Dial Up Geico. <br><span>The Geico Mobile App Puts Roadside And Accident Assistance Right At Your Fingertips.</span></h3>
 			<a class="blue-btn animated fadeInUpShort delay-500" href="https://www.geico.com/web-and-mobile/mobile-apps/" target="_blank">Download Now</a>
 			<p class="animated fadeInUpShort delay-750">GEICO’s <a href="https://www.geico.com/insurance-agents/" target="_blank">insurance agents</a> are available round the clock, so no matter when you’re driving, someone will be <br>there to help. You can also access <a href="https://www.geico.com/web-and-mobile/mobile-apps/roadside-assistance/" target="_blank">emergency roadside assistance</a> or report a claim via the <a href="https://www.geico.com/web-and-mobile/mobile-apps/" target="_blank">GEICO Mobile app</a>.</p>
-			<span class="author-name animated fadeInUpShort delay-1000">Intro Video by The Voorhes <br>Icons by Nick Slater</span>			
+			<span class="author-name animated fadeInUpShort delay-1000">Intro Video by The Voorhes <br><span>Icons by Nick Slater</span></span>			
 		</div>
 	</div>
 	<!--bottom-bar -->
@@ -770,7 +784,11 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
 <script type="text/javascript">
 jQuery(document).ready(function(e) {
 	document.getElementById('heroVideo').addEventListener('ended',myHandler,false);
+	document.getElementById('heroMobileVideo').addEventListener('ended',completeVideo,false);
     function myHandler(e) {
+        jQuery('#main_video .botom_arrow').removeClass('fadeInText');		
+    }
+	function completeVideo(e) {
         jQuery('#main_video .botom_arrow').removeClass('fadeInText');		
     }
 	jQuery('#main_video .botom_arrow').click(function(e){
@@ -781,6 +799,12 @@ jQuery(document).ready(function(e) {
 	jQuery('.hero-video .play-btn').click(function(e){
 		e.preventDefault();
 		var video = document.getElementById("heroVideo"); 		
+		video.play(); 
+	})
+
+	jQuery('.hero-video .play-btn-mobile').click(function(e){
+		e.preventDefault();
+		var video = document.getElementById("heroMobileVideo"); 		
 		video.play(); 
 	})
 
@@ -807,11 +831,19 @@ jQuery(document).ready(function(e) {
 	})
 
 	jQuery(window).load(function(){
-		setTimeout(function(){
-			jQuery('.hero-video .play-btn').trigger('click');
-			jQuery('#main_video .wrapper').addClass('fadeInText');	
-			jQuery('#main_video .botom_arrow').addClass('fadeInText');		
-		},2000);		
+		if(jQuery(window).width()>767){
+			setTimeout(function(){				
+				jQuery('.hero-video .play-btn').trigger('click');
+				jQuery('#main_video .wrapper').addClass('fadeInText');	
+				jQuery('#main_video .botom_arrow').addClass('fadeInText');		
+			},2000);	
+		}else{
+			setTimeout(function(){				
+				jQuery('.hero-video .play-btn-mobile').trigger('click');
+				jQuery('#main_video .wrapper').addClass('fadeInText');	
+				jQuery('#main_video .botom_arrow').addClass('fadeInText');		
+			},2000);	
+		}	
 	})
 	
 	if(jQuery('body').hasClass('over-flow-hidden')){
