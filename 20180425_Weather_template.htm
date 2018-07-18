@@ -395,7 +395,7 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
     <div class="bottom-bar">
 		<div class="wrapper animatedParent animateOnce">			
 			<a class="logo animated fadeInUpShort" href="#"><img src="/wp-content/themes/news-pro/infographics/weather/images/logo.svg" alt="Logo Image"></a>			
-			<h3 class="animated fadeInUpShort delay-250">You Can’t Dial Up Good Weather, But You Can Dial Up Geico. <br><span>The Geico Mobile App Puts Roadside And Accident Assistance Right At Your Fingertips.</span></h3>
+			<h3 class="animated fadeInUpShort delay-250">You Can’t Dial Up Good Weather, But You Can Dial Up Geico. <br><span>The GEICO Mobile App Puts Roadside And Accident Assistance Right At Your Fingertips.</span></h3>
 			<a class="blue-btn animated fadeInUpShort delay-500" href="https://www.geico.com/web-and-mobile/mobile-apps/" target="_blank">Download Now</a>
 			<p class="animated fadeInUpShort delay-750">GEICO’s <a href="https://www.geico.com/insurance-agents/" target="_blank">insurance agents</a> are available round the clock, so no matter when you’re driving, someone will be <br>there to help. You can also access <a href="https://www.geico.com/web-and-mobile/mobile-apps/roadside-assistance/" target="_blank">emergency roadside assistance</a> or report a claim via the <a href="https://www.geico.com/web-and-mobile/mobile-apps/" target="_blank">GEICO Mobile app</a>.</p>
 			<span class="author-name animated fadeInUpShort delay-1000">Intro Video by The Voorhes <br><span>Icons by Nick Slater</span></span>			
@@ -814,6 +814,9 @@ jQuery(document).ready(function(e) {
 		jQuery(href).fadeIn(700);
 		jQuery('#wrapper, .site-header, .nav-primary, body.full-width-page #respond, .footer-widgets').addClass('blur-class');
 		jQuery('html, body').addClass('over-flow-hidden');
+		if(jQuery(this).hasClass('play-btn')){
+			jQuery(href).find('iframe')[0].src += "&autoplay=1";
+		}
 	})
 
 	jQuery('.overlay-bar .overlay-close').click(function(e){
@@ -828,6 +831,8 @@ jQuery(document).ready(function(e) {
 		jQuery('.video-overlay-bar').fadeOut(700);
 		jQuery('#wrapper, .site-header, .nav-primary, body.full-width-page #respond, .footer-widgets').removeClass('blur-class');
 		jQuery('html, body').removeClass('over-flow-hidden');
+		var iframeSrc = jQuery(this).parents('.video-overlay-bar').find('iframe')[0].src.split('&');		 		 	
+		jQuery(this).parents('.video-overlay-bar').find('iframe')[0].src = iframeSrc[0];
 	})
 
 	jQuery(window).load(function(){

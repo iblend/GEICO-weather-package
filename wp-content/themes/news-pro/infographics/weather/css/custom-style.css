@@ -479,7 +479,7 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.light-bar .triggerspacer { height: 726px; } 
 	.ice-bar .triggerspacer { height: 518px; }  
 	html #wrapper .sky-btn:not(.external-link):hover { background: none; }
-	.blizzard-bar .triggerspacer { height: 210px; } 
+	.blizzard-bar .triggerspacer { height: 185px; } 
 	.ice-bar .bg-image:before { display: none; }
 
 }
