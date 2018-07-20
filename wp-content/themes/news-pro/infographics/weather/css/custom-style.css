@@ -85,8 +85,8 @@ html #wrapper .sky-btn:hover { background-color: #49c7f4; }
 .ice-bar { position: relative; }  
 .ice-bar .bg-image { height: 520px; background-size: cover; background-position: top center; background-repeat: no-repeat; }
 .ice-bar .ice-inner { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
-.ice-bar .one { position: absolute; bottom: 51px; left: 30.5%; }
-.ice-bar .two { position: absolute; bottom: 106px; right: 266px; }
+.ice-bar .one { position: absolute; bottom: 131px; left: 30.5%; }
+.ice-bar .two { position: absolute; bottom: 45px; right: 266px; }
 .ice-bar .wrapper { height: 100%; }
 .ice-bar .cta-style { top: 41px; bottom: auto; width: 147px; left: 71px; }
 .ice-bar .cta-style img { max-width: 74px; margin: 0 auto 14px; }
@@ -101,9 +101,9 @@ html #wrapper .ice-bar .tile-style h2 { color: #000; }
 .blizzard-bar { position: relative; }  
 .blizzard-bar .bg-image { height: 520px; background-size: cover; background-position: top center; background-repeat: no-repeat; }
 .blizzard-bar .blizzard-inner { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
-.blizzard-bar .one { position: absolute; top: 67px; left: 41%; }
-.blizzard-bar .two { position: absolute; bottom: 55px; left: 27.8%; }
-.blizzard-bar .three { position: absolute; bottom: 55px; right: 266px; width: 332px; }
+.blizzard-bar .one { position: absolute; top: 43px; left: 43.5%; }
+.blizzard-bar .two { position: absolute; bottom: 48px; left: 30%; }
+.blizzard-bar .three { position: absolute; bottom: 48px; right: 266px; width: 332px; }
 .blizzard-bar .wrapper { height: 100%; }
 .blizzard-bar .icon-style { padding: 0 0 0 44px; }
 .blizzard-bar .icon-style:before { top: 23px; }
@@ -368,7 +368,7 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.blizzard-bar .bg-image { height: 510px; }
 	
 	.rain-bar .one { left: 50%; top: 278px; margin-left: -32px; }  
-	.rain-bar .two { left: 50%; right: 0px; bottom: auto; top: 407px; margin-left: -45px; width: 180px; }  
+	.rain-bar .two { left: 50%; right: 0px; bottom: auto; top: 403px; margin-left: -17px; width: 137px; }  
 
 	.tile-style { width: 165px; margin-left: -62px; z-index: 2; }  
 	html #wrapper .sky-btn { background: none; color: #fff; font-size: 14px; padding: 5px 19px; }
@@ -397,13 +397,13 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.light-bar .three { left: 50%; bottom: auto; top: 262px; right: auto; width: 171px; margin-left: -37px; } 
 	.light-bar .two { right: auto; left: 50%; top: 387px; width: 170px; margin-left: -37px; }
 	
-	.ice-bar .one { top: 150px; left: 50%; right: auto; margin-left: -27px; bottom: auto; }
-	.ice-bar .two { top: 249px; left: 50%; right: auto; margin-left: -24px; bottom: auto; }
+	.ice-bar .one { top: 272px; left: 50%; right: auto; margin-left: -27px; bottom: auto; }
+	.ice-bar .two { top: 139px; left: 50%; right: auto; margin-left:-27px; bottom: auto; }
 	
-	.blizzard-bar .one { top: 103px; left: 50%; right: auto; margin-left: -26px; width: 167px; }
+	.blizzard-bar .one { top: 66px; left: 50%; right: auto; margin-left: -31px; width: 167px; }
 	html #wrapper .blizzard-bar .sky-btn { color: #000; }
-	.blizzard-bar .two { top: 219px; left: 50%; right: auto; margin-left: -60px; width: 230px; bottom: auto;  }
-	.blizzard-bar .three { top: 343px; left: 50%; right: auto; width: 150px; margin-left: -22px; }
+	.blizzard-bar .two { top: 213px; left: 50%; right: auto; margin-left: -32px; width: 170px; bottom: auto;  }
+	.blizzard-bar .three { top: 351px; left: 50%; right: auto; width: 150px; margin-left: -22px; }
 	
 	.bottom-bar .logo { width: 180px; margin: 0 auto 12px; } 
 	html #wrapper .bottom-bar h3 { font-size: 17px; line-height: 21px; padding: 0 7px 13px; } 
