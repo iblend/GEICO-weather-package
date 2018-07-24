@@ -83,7 +83,7 @@ html #wrapper .sky-btn:hover { background-color: #49c7f4; }
 .light-bar .triggerspacer { height: 422px; }
 
 .ice-bar { position: relative; }  
-.ice-bar .bg-image { height: 520px; background-size: cover; background-position: top center; background-repeat: no-repeat; }
+.ice-bar .bg-image { height: 520px; background-size: cover; background-position: top center; background-repeat: no-repeat; background-position: center center; }
 .ice-bar .ice-inner { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
 .ice-bar .one { position: absolute; bottom: 131px; left: 30.5%; }
 .ice-bar .two { position: absolute; bottom: 45px; right: 266px; }
@@ -296,7 +296,7 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.tile-style { width: 205px; } 
 	.blizzard-bar .one { top: 30px; }
 	.ice-bar .two { right: 20px; }
-	.ice-bar .one { left: 38%; }
+	.ice-bar .one { left: 38%; bottom: 100px; }
 	
 	.light-bar .two { right: 20px; }
 	.light-bar .three { right: 70px; }

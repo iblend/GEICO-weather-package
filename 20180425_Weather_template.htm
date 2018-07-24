@@ -858,23 +858,49 @@ jQuery(document).ready(function(e) {
 	}
 
 	var controller = new ScrollMagic.Controller();
-	var scene = new ScrollMagic.Scene({triggerElement: "#triggerspacer", duration: jQuery('.rain-bar .triggerspacer').height()})
+
+	function createSceneRain() {
+		return new ScrollMagic.Scene({triggerElement: "#triggerspacer", duration: jQuery('.rain-bar .triggerspacer').height()})
 											.setPin("#iconpin")											
 											.addTo(controller);
+	}
 
-	var scene = new ScrollMagic.Scene({triggerElement: "#triggerspacer1", duration: jQuery('.light-bar .triggerspacer').height()})
+	function createSceneLight() {
+		return new ScrollMagic.Scene({triggerElement: "#triggerspacer1", duration: jQuery('.light-bar .triggerspacer').height()})
 											.setPin("#iconpin1")											
 											.addTo(controller);
 
-	var scene = new ScrollMagic.Scene({triggerElement: "#triggerspacer2", duration: jQuery('.ice-bar .triggerspacer').height()})
+	}
+
+	function createSceneIce() {
+		return new ScrollMagic.Scene({triggerElement: "#triggerspacer2", duration: jQuery('.ice-bar .triggerspacer').height()})
 											.setPin("#iconpin2")											
 											.addTo(controller);
+	}
 
-	var scene = new ScrollMagic.Scene({triggerElement: "#triggerspacer3", duration: jQuery('.blizzard-bar .triggerspacer').height()})
+	function createSceneBlizzard() {
+		return new ScrollMagic.Scene({triggerElement: "#triggerspacer3", duration: jQuery('.blizzard-bar .triggerspacer').height()})
 											.setPin("#iconpin3")											
 											.addTo(controller);
-
+	}
 	
+	var scene1 = createSceneRain();
+  	var scene2 = createSceneLight();
+	var scene3 = createSceneIce();
+	var scene4 = createSceneBlizzard();
+
+	jQuery(window).on('resize', function(){
+		scene1.destroy(true);
+		scene2.destroy(true);
+		scene3.destroy(true);
+		scene4.destroy(true);
+		
+		scene1 = createSceneRain();
+  		scene2 = createSceneLight();
+		scene3 = createSceneIce();
+		scene4 = createSceneBlizzard();
+	})
+
 	// Create scenes
 	$(".on-view-section").each(function(i) {
 		var bgimage = $(this).find(".bg-image");
