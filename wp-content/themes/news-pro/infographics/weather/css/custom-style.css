@@ -192,6 +192,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 
 
+.content .entry-content .rain-bar .icon-style img { width: 52px; height: 53px; }
+.content .entry-content .light-bar .icon-style img { width: 51px; height: 53px; }
+.content .entry-content .ice-bar .icon-style img { width: 45px; height: 55px; }
+.content .entry-content .blizzard-bar .icon-style img { width: 52px; height: 49px; }
+
+
 /* Responsive Media Query */
 @media only screen and (max-height:700px) {
 	#main_video .text { padding-bottom: 50px; }  
@@ -481,15 +487,28 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	html #wrapper .sky-btn:not(.external-link):hover { background: none; }
 	.blizzard-bar .triggerspacer { height: 185px; } 
 	.ice-bar .bg-image:before { display: none; }
+	
+	.content .entry-content .rain-bar .icon-style img { width: 45px; height: 46px; }
+	.content .entry-content .light-bar .icon-style img { width: 46px; height: 47px; }
+	.content .entry-content .ice-bar .icon-style img { width: 35px; height: 39px; }
+	.content .entry-content .blizzard-bar .icon-style img { width: 45px; height: 46px; }
+	
+	.video-overlay-bar .video-iframe { padding: 0px; width: 400px; height: 224px; margin: 0 auto; }
+	#how-to-make-an-emergency-car-kit.video-overlay-bar h2 { max-width: 230px; }
 
+}
+
+@media only screen and (max-width:639px) {
+ 	.video-overlay-bar .video-iframe { padding: 0px; width: 320px; height: 177px; }
 }
 
 @media only screen and (max-width:479px) {
- 
+ 	.video-overlay-bar .video-iframe { padding: 0px; width: 280px; height: 156px; }
 }
+
 
 /* IE Hack */
 @media all and (-ms-high-contrast:none) {
- 
+	#main_video .hero-video video { height: auto; }
 }
 

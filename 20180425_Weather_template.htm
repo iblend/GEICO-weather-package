@@ -890,15 +890,17 @@ jQuery(document).ready(function(e) {
 	var scene4 = createSceneBlizzard();
 
 	jQuery(window).on('resize', function(){
-		scene1.destroy(true);
-		scene2.destroy(true);
-		scene3.destroy(true);
-		scene4.destroy(true);
-		
-		scene1 = createSceneRain();
-  		scene2 = createSceneLight();
-		scene3 = createSceneIce();
-		scene4 = createSceneBlizzard();
+		setTimeout(function(){
+			scene1.destroy(true);
+			scene2.destroy(true);
+			scene3.destroy(true);
+			scene4.destroy(true);
+
+			scene1 = createSceneRain();
+			scene2 = createSceneLight();
+			scene3 = createSceneIce();
+			scene4 = createSceneBlizzard();	
+		},300);				
 	})
 
 	// Create scenes
