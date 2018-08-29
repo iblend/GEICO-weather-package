@@ -336,6 +336,15 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 
 }
 
+@media only screen and (max-height:420px) and (max-width:850px) {
+	.video-overlay-bar .video-inner .wrapper { padding: 0 12px; max-width: 100%; }
+	.video-overlay-bar .overlay-close { width: 30px; height: 30px; background-size: 26px auto; top: -38px; right: 10px; } 
+	.video-overlay-bar .video-inner { padding: 52px 0 37px; }
+	.video-overlay-bar h2 { font-size: 25px; line-height: 25px; max-width: 245px; margin: 0 auto; }
+	.video-overlay-bar h2 br { display: none; }
+	.video-overlay-bar .video-iframe { padding: 0px; width: 280px; height: 156px; margin: 0 auto; }
+}
+
 @media only screen and (max-width:767px) {
 	#main_video h1 { font-size: 33px; line-height: 34px; letter-spacing: 2.2px; }
 	#main_video .wrapper { max-width: 290px; }  
@@ -403,8 +412,8 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.light-bar .three { left: 50%; bottom: auto; top: 262px; right: auto; width: 171px; margin-left: -37px; } 
 	.light-bar .two { right: auto; left: 50%; top: 387px; width: 170px; margin-left: -37px; }
 	
-	.ice-bar .one { top: 272px; left: 50%; right: auto; margin-left: -27px; bottom: auto; }
-	.ice-bar .two { top: 139px; left: 50%; right: auto; margin-left:-27px; bottom: auto; }
+	.ice-bar .one { top: 120px; left: 50%; right: auto; margin-left: -27px; bottom: auto; }
+	.ice-bar .two { top: 240px; left: 50%; right: auto; margin-left:-27px; bottom: auto; }
 	
 	.blizzard-bar .one { top: 66px; left: 50%; right: auto; margin-left: -31px; width: 167px; }
 	html #wrapper .blizzard-bar .sky-btn { color: #000; }
