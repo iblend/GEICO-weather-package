@@ -20,14 +20,14 @@ html #wrapper .blue-btn:hover { text-decoration: none; color: #fff; background: 
 #main_video .wrapper { max-width: 830px; }
 #main_video .wrapper.fadeInText h1, #main_video .wrapper.fadeInText p { opacity: 0; }
 #main_video .text { text-align: center; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); z-index: 2; }
-#main_video { height: calc(100vh - 141px); height: -webkit-calc(100vh - 141px); position: relative; background-size: cover; background-repeat: no-repeat; background-position: top center; overflow: hidden; }
+#main_video { height: calc(100vh - 168px); height: -webkit-calc(100vh - 168px); position: relative; background-size: cover; background-repeat: no-repeat; background-position: top center; overflow: hidden; }
 #main_video p { font-size: 20px; line-height: 28px; font-weight: normal; font-family: 'latoheavy'; padding: 23px 0 22px; max-width: 650px; margin: auto; color: #faf5f5; letter-spacing: 0.6px; transition: all 350ms; -webkit-transition: all 350ms; }
 
 #main_video .botom_arrow.fadeInText { opacity: 0; }
-#main_video .botom_arrow { background: url(../images/arrow.svg) center center no-repeat; background-size: 71px; width: 71px; height: 71px; display: block; text-indent: -9999px; margin-left: -36px; transition: all 350ms; -webkit-transition: all 350ms; position: absolute; bottom: 40px; left: 50%; z-index: 9; }
+#main_video .botom_arrow { background: url(../images/arrow.svg) center center no-repeat; background-size: 71px; width: 71px; height: 71px; display: block; text-indent: -9999px; margin-left: -36px; transition: all 350ms; -webkit-transition: all 350ms; position: absolute; bottom: 30px; left: 50%; z-index: 9; }
 #main_video .hero-video { width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden; }
 #main_video .play-btn, #main_video .play-btn-mobile { position: absolute; top: 0px; left: 0px; z-index: 99; font-size: 0px; line-height: 0px; overflow: hidden; opacity: 0; }
-#main_video .hero-video video { display: block; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+#main_video .hero-video video { display: block; width: 100%; height: 100%; object-fit: cover; pointer-events: none; object-position: 50% 15%; }
 
 .content-cntr { position: relative; }
 .content-cntr .thermometer { position: absolute; top: 150px; left: 50%; width: 75px; margin-left: -491px; }    
@@ -336,6 +336,14 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+	#main_video .botom_arrow { bottom: 40px; }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+	#main_video .botom_arrow { bottom: 40px; }
+}
+
 @media only screen and (max-height:420px) and (max-width:850px) {
 	.video-overlay-bar .video-inner .wrapper { padding: 0 12px; max-width: 100%; }
 	.video-overlay-bar .overlay-close { width: 30px; height: 30px; background-size: 26px auto; top: -38px; right: 10px; } 
@@ -387,6 +395,8 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 
 	.tile-style { width: 165px; margin-left: -62px; z-index: 2; }  
 	html #wrapper .sky-btn { background: none; color: #fff; font-size: 14px; padding: 5px 19px; }
+	html #wrapper .tile-style .sky-btn { padding: 8px 0px 0; border-bottom: 2px solid #fff; line-height: 15px; }
+	html #wrapper .ice-bar .tile-style .sky-btn, html #wrapper .blizzard-bar .tile-style .sky-btn { border-bottom-color: #000; }
 	
 	.rain-bar .cta-style.the-winter-car { bottom: auto; top: 33px; width: 204px; margin-left: -41px; }
 	.rain-bar .cta-style.the-winter-car img { max-width: 51px; margin-bottom: 7px; }
@@ -505,6 +515,7 @@ html.touch-devices.over-flow-hidden body.over-flow-hidden { overflow: hidden; }
 	.video-overlay-bar .video-iframe { padding: 0px; width: 400px; height: 224px; margin: 0 auto; }
 	#how-to-make-an-emergency-car-kit.video-overlay-bar h2 { max-width: 230px; }
 
+	#main_video .hero-video video { object-position: 50% 0; }
 }
 
 @media only screen and (max-width:639px) {
